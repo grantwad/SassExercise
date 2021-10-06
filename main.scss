@@ -1,0 +1,33 @@
+// 5
+@import "values";
+
+// 2
+.main {
+  background-color: tan;
+  // 3
+  h1 {
+    color: #ddd;
+  }
+  // 7
+  h2 {
+    background-color: $brown1;
+  }
+  h3 {
+    color: $brown1;
+  }
+}
+
+// 8
+.minor {
+  background-color: silver;
+  // 9
+  h1 {
+    text-decoration: underline;
+    @extend %center;
+  }
+  // 11
+  h2 {
+    text-decoration: line-through;
+    @extend %center;
+  }
+}
